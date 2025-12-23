@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scrollbar (Discord-like) */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ec4899;
+  border-radius: 4px;
+}
+
+/* Global */
+body {
+  @apply bg-zinc-950 text-white font-sans;
+}
